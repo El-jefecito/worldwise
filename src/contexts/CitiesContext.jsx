@@ -1,4 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
 import { createContext, useState, useEffect, useContext } from "react";
 
 const BASE_URL = "http://localhost:5000";
@@ -60,4 +59,4 @@ function useCities() {
   return context;
 }
 
-export { CitiesProvider, useCities };
+export { CitiesProvider, CitiesContext, useCities };
