@@ -34,7 +34,7 @@ function Map() {
   useEffect(
     function () {
       if (geolocationPosition)
-        setMapPosition(geolocationPosition.lng, geolocationPosition.lng);
+        setMapPosition(geolocationPosition.lat, geolocationPosition.lng);
     },
     [geolocationPosition]
   );
